@@ -1,4 +1,4 @@
-# Croppy [Flipkart GRID](https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928)
+# Croppy [[Flipkart GRID](https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928)]
 The code is used to predict the bounding box for an object in image. This is keras implementation of single object localization. It's based on UNET segmentation and regression both based on XceptionNet. Currently it supports only single object in an image. The input image provided must be of shape (480,640,3) which is further resized to (224,224,3) for training.
 
 ![Example Image](example.png?raw=true "Optional Title"))
@@ -58,3 +58,9 @@ python pre_trained_reg.py
 python pre_trained_seg.py
 ```
 ###### Note : Be carefull, give model_direc = regression weights when in reg mode and same goes for seg mode. Interchanging models will throw an error.
+#### Ensembling
+In order to improve IOU score you can further use ensembling in following manner. The ensembling is done as depicted below.
+![Example Image](ens.png?raw=true "Optional Title"))
+```bash
+python ensembling.py
+```
