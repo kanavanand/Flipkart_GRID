@@ -1,7 +1,8 @@
 # Croppy [Flipkart GRID](https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928)
-The code is used to predict the bounding box for an object in image. This is keras implementation of single object localization. It's based on UNET segmentation and regression both based on XceptionNet. 
+The code is used to predict the bounding box for an object in image. This is keras implementation of single object localization. It's based on UNET segmentation and regression both based on XceptionNet. Currently it supports only single object in an image. The input image provided must be of shape (480,640,3) which is further resized to (224,224,3) for training.
 
-![alt text](https://raw.githubusercontent.com/kanavanand/Flipkart_GRID/example.png)
+![Example Image](example.png?raw=true "Optional Title"))
+
 The croppy supports two modes currently 
 1) Regression Mode :"reg"
 2) Segmentation Mode : "seg"
