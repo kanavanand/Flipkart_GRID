@@ -60,7 +60,10 @@ python pre_trained_seg.py
 ###### Note : Be carefull, give model_direc = regression weights when in reg mode and same goes for seg mode. Interchanging models will throw an error.
 #### Ensembling
 In order to improve IOU score you can further use ensembling in following manner. The ensembling is done as depicted below.
-![Example Image](ens.png?raw=true "Optional Title"))
+
+![Example Image](ensemble.png?raw=true "Optional Title"))
+
+
 ```bash
 python ensembling.py
 ```
