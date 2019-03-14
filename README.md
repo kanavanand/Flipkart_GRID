@@ -27,7 +27,7 @@ if not os.path.isdir("pretrained_weights/"):
     print('making direct pretrained_weights/')
     os.mkdir('pretrained_weights/')
 ! wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Lx9uZSwbzsc3anh9lfb4RPiBEBoSDMQ8' -O pretrained_weights/regression.h5
-! wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1WNe1s1RzBqiV-vvcJMo9swaAFDBO1Rh-' -O pretrained_weights/segmentation.h5
+! wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1WNe1s1RzBqiV-vvcJMo9swaAFDBO1Rh-' -O pretrained_weights/segmentation.model
 
 ```
 
